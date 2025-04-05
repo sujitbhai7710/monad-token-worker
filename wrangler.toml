@@ -1,0 +1,14 @@
+name = "monad-tokens-proxy"
+main = "token.js"
+compatibility_date = "2023-10-30"
+
+[vars]
+# These will be replaced with actual values in the Cloudflare dashboard
+# or when deploying with GitHub Actions
+THIRDWEB_CLIENT_ID = ""
+PROTECTION_API_KEY = ""
+
+# Optionally, configure a production environment
+# [env.production]
+# route = ""
+# zone_id = "" 

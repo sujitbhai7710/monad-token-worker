@@ -1,0 +1,14 @@
+{
+  "name": "monad-tokens-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for proxying Monad token requests",
+  "main": "token.js",
+  "scripts": {
+    "deploy": "wrangler publish",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 
